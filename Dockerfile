@@ -8,7 +8,7 @@ COPY package.json package-lock.json ./
 
 RUN NODE_OPTIONS=--max-old-space-size=4096 npm ci --omit=dev --omit=optional --ignore-scripts --no-fund
 
-COPY console-extensions.json LICENSE tsconfig.json tsconfig.build.json webpack.config.ts ./
+COPY console-extensions.json LICENSE tsconfig.json tsconfig.build.json webpack.config.mts ./
 COPY locales ./locales
 COPY src ./src
 RUN npm run build

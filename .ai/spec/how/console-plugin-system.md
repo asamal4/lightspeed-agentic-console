@@ -6,7 +6,7 @@
 |---|---|---|
 | `console-extensions.json` | — | Declares routes and navigation items the plugin adds to console |
 | `package.json` → `consolePlugin` | `name`, `exposedModules`, `dependencies` | Plugin metadata and module federation mapping |
-| `webpack.config.ts` | `ConsoleRemotePlugin`, module federation config | Build-time configuration for runtime loading |
+| `webpack.config.mts` | `ConsoleRemotePlugin`, module federation config | Build-time configuration for runtime loading |
 
 ## Data Flow
 

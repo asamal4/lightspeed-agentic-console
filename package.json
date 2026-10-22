@@ -23,7 +23,7 @@
     "test-e2e": "npx playwright test",
     "test-e2e-headless": "npx playwright test --reporter=list",
     "type-check": "tsc --noEmit",
-    "webpack": "node -r ts-node/register ./node_modules/.bin/webpack"
+    "webpack": "webpack"
   },
   "dependencies": {
     "@openshift-console/dynamic-plugin-sdk": "4.22.0",
@@ -45,7 +45,6 @@
     "react-router": "7.13.2",
     "style-loader": "4.0.0",
     "ts-loader": "9.6.2",
-    "ts-node": "10.9.2",
     "typescript": "5.9.3",
     "webpack": "5.111.1",
     "webpack-cli": "7.2.3"
