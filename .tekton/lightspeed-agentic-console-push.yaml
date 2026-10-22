@@ -7,7 +7,7 @@ metadata:
     build.appstudio.redhat.com/target_branch: '{{target_branch}}'
     pipelinesascode.tekton.dev/cancel-in-progress: "false"
     pipelinesascode.tekton.dev/max-keep-runs: "3"
-    pipelinesascode.tekton.dev/on-cel-expression: event == "push" && target_branch == "main" && ("Dockerfile".pathChanged() || "src/**".pathChanged() || "locales/**".pathChanged() || "package.json".pathChanged() || "package-lock.json".pathChanged() || "console-extensions.json".pathChanged() || "tsconfig.json".pathChanged() || "tsconfig.build.json".pathChanged() || "webpack.config.ts".pathChanged() || "LICENSE".pathChanged() || ".tekton/lightspeed-agentic-console-push.yaml".pathChanged())
+    pipelinesascode.tekton.dev/on-cel-expression: event == "push" && target_branch == "main" && ("Dockerfile".pathChanged() || "src/**".pathChanged() || "locales/**".pathChanged() || "package.json".pathChanged() || "package-lock.json".pathChanged() || "console-extensions.json".pathChanged() || "tsconfig.json".pathChanged() || "tsconfig.build.json".pathChanged() || "webpack.config.mts".pathChanged() || "LICENSE".pathChanged() || ".tekton/lightspeed-agentic-console-push.yaml".pathChanged())
   labels:
     appstudio.openshift.io/application: ols
     appstudio.openshift.io/component: lightspeed-agentic-console

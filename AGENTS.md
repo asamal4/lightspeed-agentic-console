@@ -29,7 +29,7 @@ This plugin uses webpack module federation to load at runtime into the OpenShift
 
 - `console-extensions.json`: Declares what the plugin adds to console (routes, nav items, etc.)
 - `package.json` `consolePlugin` section: Plugin metadata and exposed modules mapping
-- `webpack.config.ts`: Configures module federation and build
+- `webpack.config.mts`: Configures module federation and build
 
 **Critical:** Any component referenced in `console-extensions.json` must have a corresponding entry in `package.json` under `consolePlugin.exposedModules`.
 
@@ -72,7 +72,7 @@ src/
 console-extensions.json # Plugin extension declarations
 package.json           # Plugin metadata in consolePlugin section
 tsconfig.json          # TypeScript config
-webpack.config.ts      # Module federation + build config
+webpack.config.mts     # Module federation + build config
 locales/               # i18n translation files
 integration-tests/     # Playwright e2e tests
 ```
@@ -103,7 +103,7 @@ integration-tests/     # Playwright e2e tests
 Config enforces:
 - `strict: true`
 - `noUnusedLocals: true`
-- Use `.tsx` only for React components; non-React TypeScript (configuration, hooks, models, utilities, tests) uses `.ts`
+- Use `.tsx` only for React components; non-React TypeScript (hooks, models, utilities, tests) uses `.ts`
 - Target: ES2021
 
 ## Common Development Tasks

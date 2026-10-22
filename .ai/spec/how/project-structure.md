@@ -44,7 +44,7 @@
 | `src/components/configuration/ApprovalPolicy.tsx` | `ApprovalPolicy` | Approval policy CRUD |
 | `src/components/configuration/ExecutionPolicyModal.tsx` | `ExecutionPolicyModal` | Acknowledgment modal (automatic-execution + RBAC checkboxes) confirming a switch of a stage to automatic approval |
 | `console-extensions.json` | — | Plugin extension declarations (routes, nav items) |
-| `webpack.config.ts` | — | Module federation and build configuration |
+| `webpack.config.mts` | — | Module federation and build configuration |
 | `playwright.config.ts` | — | Playwright e2e test configuration |
 | `integration-tests/support/fixtures.ts` | `test`, `oc`, `gatherClusterArtifacts` | Custom test fixture, cluster CLI helper, artifact collection |
 | `integration-tests/support/global-setup.ts` | `globalSetup` | Operator readiness, browser login, storageState |
