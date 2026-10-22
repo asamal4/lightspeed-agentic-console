@@ -28,7 +28,6 @@
   "dependencies": {
     "@openshift-console/dynamic-plugin-sdk": "4.22.0",
     "@openshift-console/dynamic-plugin-sdk-webpack": "4.22.0",
-    "@patternfly/react-charts": "8.6.0",
     "@patternfly/react-component-groups": "6.5.0",
     "@patternfly/react-core": "6.6.0",
     "@patternfly/react-icons": "6.6.0",
@@ -48,7 +47,6 @@
     "ts-loader": "9.6.2",
     "ts-node": "10.9.2",
     "typescript": "5.9.3",
-    "victory": "37.3.6",
     "webpack": "5.111.1",
     "webpack-cli": "7.2.3"
   },
